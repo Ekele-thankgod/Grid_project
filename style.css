@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.item {
+    padding: 20px;
+    border-radius: 10px;    
+}
+.picture img { 
+    border-radius: 50%;
+    width: 20px;
+}
+.picture {
+    display: flex;
+    /* justify-content: space-between; */
+}
+#item1 {
+    display: flex;
+    background-color: blue;
+    grid-column: 1/3;    
+}
+.snap img {
+    border-radius: 50%;
+    width: 20px;
+}
+.bake {
+    display: flex;
+}
+.plain {
+    display: flex;
+}
+#item2 {
+    background-color: red;
+}
+#item3 {
+    background-color: yellow;
+    grid-area: 1/4/3/5;
+}
+.pics img {
+    border-radius: 50%;
+    width: 20px;
+}
+#item4 {
+    background-color: purple;
+}
+.note {
+    display: flex;
+    margin-left: 5px;
+}
+.note h2 {
+    margin-top: 0;
+}
+.photo img {
+    border-radius: 50%;
+    width: 20px;
+}
+#item5 {
+    background-color: green;
+    grid-column: 2/4;
+}
+.glow img {
+    border-radius: 50%;
+    width: 20px;
+}
